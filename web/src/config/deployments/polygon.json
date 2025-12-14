@@ -1,0 +1,16 @@
+{
+  "chainId": 137,
+  "networkName": "polygon",
+  "deployedAt": "2025-12-14T02:14:17.745Z",
+  "startBlock": 80286517,
+  "contracts": {
+    "MerchantRegistry": "0xD28eCF94f8Bf58E8865939DA850f86b9004e84B9",
+    "InvoiceRegistry": "0x36fBf54Efd152FD7E518aF1A68F04130fe47de06",
+    "TreasuryVaultUSDC": "0x3C48365aA68B719205F28E34b9bdf61F2e24D9F0"
+  },
+  "externalContracts": {
+    "USDC": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+    "ERC5564Announcer": "0x55649E01B5Df198D18D95b5cc5051630cfD45564",
+    "AavePoolAddressesProvider": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb"
+  }
+}

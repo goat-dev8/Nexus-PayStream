@@ -1,0 +1,21 @@
+{
+  "name": "nexus-paystream",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "contracts:test": "pnpm --filter contracts test",
+    "contracts:compile": "pnpm --filter contracts compile",
+    "contracts:deploy:polygon": "pnpm --filter contracts deploy:polygon",
+    "contracts:verify:polygon": "pnpm --filter contracts verify:polygon"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

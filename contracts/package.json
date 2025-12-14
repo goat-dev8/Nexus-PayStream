@@ -1,0 +1,23 @@
+{
+    "name": "contracts",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "compile": "hardhat compile",
+        "test": "hardhat test",
+        "deploy:polygon": "hardhat run scripts/deployPolygon.ts --network polygon",
+        "verify:polygon": "hardhat run scripts/verifyPolygon.ts --network polygon",
+        "clean": "hardhat clean"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+        "@nomicfoundation/hardhat-verify": "^2.0.0",
+        "@openzeppelin/contracts": "^5.0.0",
+        "@types/node": "^20.10.0",
+        "dotenv": "^16.3.1",
+        "hardhat": "^2.19.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.0"
+    }
+}
